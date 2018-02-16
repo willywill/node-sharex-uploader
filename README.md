@@ -1,3 +1,3 @@
 # node-sharex-uploader
 
-An express powered image uploader to use in conjuction with ShareX.
+A NodeJS powered image uploader to use in conjunction with ShareX.
