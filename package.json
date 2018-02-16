@@ -1,0 +1,31 @@
+{
+  "name": "sharex-uploader",
+  "version": "1.0.0",
+  "description": "An Express powered image uploader to use in conjuction with ShareX.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willywill/node-sharex-uploader.git"
+  },
+  "keywords": [
+    "ShareX",
+    "Node",
+    "Custom",
+    "Uploader"
+  ],
+  "author": "Will Germany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willywill/node-sharex-uploader/issues"
+  },
+  "homepage": "https://github.com/willywill/node-sharex-uploader#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "multer": "^1.3.0"
+  }
+}
