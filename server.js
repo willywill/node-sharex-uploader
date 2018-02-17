@@ -37,7 +37,7 @@ app.post('/upload', (req, res) => {
     if (error) {
       res.status(500).send({ error })
     } else if (req.body.secretKey !== process.env.SECRET_KEY) {
-      res.status(500).send({ error: 'Unauthorized.' })
+      res.status(401).send({ error: 'Unauthorized.' })
     } else {
       res.status(200).send({ url: process.env.HOST_NAME_URL + imageURL)})
     }
